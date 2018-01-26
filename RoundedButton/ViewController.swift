@@ -8,6 +8,8 @@
 
 import UIKit
 
+//https://stackoverflow.com/questions/40320727/fill-uiimageview-with-other-color-animated
+
 class ViewController: UIViewController {
    
     override func viewDidLoad() {
