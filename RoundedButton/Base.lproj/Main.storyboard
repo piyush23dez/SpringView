@@ -27,20 +27,27 @@
                                 </constraints>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Spz-yf-j03" customClass="SpringView" customModule="RoundedButton" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="300" width="250" height="60"/>
+                                <rect key="frame" x="0.0" y="130" width="250" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="TMP-Oa-Vjo"/>
                                     <constraint firstAttribute="width" constant="250" id="of0-WR-tTq"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xzh-UR-NIr" customClass="CurtainSpring" customModule="RoundedButton" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="225" width="375" height="271"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Xzh-UR-NIr" secondAttribute="trailing" id="70x-s6-ZSo"/>
+                            <constraint firstItem="Xzh-UR-NIr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="225" id="KEy-94-PyP"/>
                             <constraint firstItem="6JU-Zn-QpO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MHQ-KH-r6b"/>
-                            <constraint firstItem="Spz-yf-j03" firstAttribute="top" secondItem="6JU-Zn-QpO" secondAttribute="bottom" constant="190" id="Z8K-wD-fnP"/>
+                            <constraint firstItem="Xzh-UR-NIr" firstAttribute="leading" secondItem="Spz-yf-j03" secondAttribute="leading" id="MJY-na-2T3"/>
+                            <constraint firstItem="Spz-yf-j03" firstAttribute="top" secondItem="6JU-Zn-QpO" secondAttribute="bottom" constant="20" id="Z8K-wD-fnP"/>
                             <constraint firstItem="Spz-yf-j03" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sOE-JR-j2I"/>
                             <constraint firstItem="6JU-Zn-QpO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="xzv-g2-f7t"/>
+                            <constraint firstItem="Xzh-UR-NIr" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-171" id="y49-l8-1ec"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
